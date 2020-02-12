@@ -25,7 +25,11 @@ SECRET_KEY = 'ktfi!l3%bel4+nrkvqnb_&r)@szhl(n!-bybd0sso20#8zcw@n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD:djreact/settings.py
 ALLOWED_HOSTS = ['son-djreact.herokuapp.com', '127.0.0.1']
+=======
+ALLOWED_HOSTS = ['son-djreact.herokuapp.com']
+>>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:djreact/settings.py
 
 
 # Application definition
@@ -140,19 +144,29 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+<<<<<<< HEAD:djreact/settings.py
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'build/static')
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+=======
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+>>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:djreact/settings.py
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
         # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+<<<<<<< HEAD:djreact/settings.py
         'rest_framework.permissions.AllowAny'
         # 'rest_framework.authentication.SessionAuthentication',
         # 'rest_framework.authentication.TokenAuthentication',
+=======
+        # 'rest_framework.permissions.AllowAny'
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+>>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:djreact/settings.py
     ]
 }
 

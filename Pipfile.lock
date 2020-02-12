@@ -1,7 +1,11 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD:Pipfile.lock
             "sha256": "24afb574381cbedc4f8fb61225474ecf6c6f0bf97ed87a0b244b855093c459f1"
+=======
+            "sha256": "11533833ee35823cc95de87ade78467e0b8ccbbafa21cf5c58b3a65831923b31"
+>>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:Pipfile.lock
         },
         "pipfile-spec": 6,
         "requires": {
@@ -194,9 +198,12 @@
             "version": "==1.25.8"
         },
         "whitenoise": {
+<<<<<<< HEAD:Pipfile.lock
             "extras": [
                 "brotli"
             ],
+=======
+>>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:Pipfile.lock
             "hashes": [
                 "sha256:0f9137f74bd95fa54329ace88d8dc695fbe895369a632e35f7a136e003e41d73",
                 "sha256:62556265ec1011bd87113fb81b7516f52688887b7a010ee899ff1fd18fd22700"

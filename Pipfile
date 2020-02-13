@@ -4,8 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pep8 = "*"
-pylint = "*"
 
 [packages]
 django = "*"
@@ -13,11 +11,7 @@ djangorestframework = "*"
 django-cors-headers = "*"
 django-rest-auth = {extras = ["with_social"],version = "*"}
 gunicorn = "*"
-<<<<<<< HEAD:Pipfile
 whitenoise = {extras = ["brotli"],version = "*"}
-=======
-whitenoise = "*"
->>>>>>> bdc0c8c0a18878dff8d1358e7b686364b8e1fbe1:Pipfile
 
 [requires]
 python_version = "3.6"
